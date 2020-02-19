@@ -8,7 +8,7 @@ class Song
     puts @@artists.include? (artist)
     if(@@artists.include? (artist) == false)
       @@artists << artist
-    puts @@artists
+    puts "artists " + @@artists
     
     end
     if(@@genres.include? (genre) == false)
