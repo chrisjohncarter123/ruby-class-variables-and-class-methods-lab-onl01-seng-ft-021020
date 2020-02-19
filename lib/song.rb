@@ -19,6 +19,7 @@ class Song
   
   def Song.artists
     @@artists
+    puts ""
   end
   
   def Song.genres
