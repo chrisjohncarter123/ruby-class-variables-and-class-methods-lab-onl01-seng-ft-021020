@@ -7,10 +7,8 @@ class Song
     @@count += 1
 
     @@artists << artist
-    @@artists = @@artists.uniq
-    
     @@genres << genre
-    @@genres = @@genres.uniq
+    
     
   end
   
@@ -19,11 +17,15 @@ class Song
   end
   
   def Song.artists
-    @@artists
+    @@artists.uniq
   end
   
   def Song.genres
-    @@genres
+    @@genres.uniq
+  end
+  
+  def Song.genre_count
+    @@genres.uniq
   end
   
 end
