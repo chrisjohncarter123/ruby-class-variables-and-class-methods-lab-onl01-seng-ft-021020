@@ -47,3 +47,6 @@ puts "artists "
 puts Song.artists.inspect
 puts "genres "
 puts Song.genres.inspect
+puts "genre count"
+puts Song.genre_count.inspect
+
