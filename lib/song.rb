@@ -32,6 +32,6 @@ end
 
 s1 = Song.new("s1", "bob", "chill")
 s2 = Song.new("s1", "bob2", "chill2")
-puts Song.count
-puts Song.artists
-puts Song.genres
+puts "count " + Song.count
+puts "artists " + Song.artists
+puts "genres " + Song.genres
