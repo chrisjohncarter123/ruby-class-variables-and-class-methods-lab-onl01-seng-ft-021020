@@ -16,6 +16,7 @@ class Song
     end
     
     puts @@artists
+    puts @@genres
   end
   
   def Song.count
