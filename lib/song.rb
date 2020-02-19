@@ -7,7 +7,7 @@ class Song
     @@count += 1
     puts @@artists.include? (artist)
     
-    if(@@artists.include? artist == false)
+    if(@@artists.include? artist == true)
       @@artists << artist
       
     end
@@ -22,7 +22,6 @@ class Song
   
   def Song.artists
     @@artists
-    puts ""
   end
   
   def Song.genres
