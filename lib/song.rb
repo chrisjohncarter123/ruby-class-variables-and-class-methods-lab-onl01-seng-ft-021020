@@ -35,6 +35,17 @@ class Song
    result
   end
   
+  def Song.artist_count
+    result = Hash.new(0)
+
+   # iterate over the array, counting duplicate entries
+   @@artists.each do |value|
+     result[value] += 1
+   end
+   
+   result
+  end
+  
   
   
 end
