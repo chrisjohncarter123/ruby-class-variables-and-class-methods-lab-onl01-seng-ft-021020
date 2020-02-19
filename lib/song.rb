@@ -38,6 +38,6 @@ s2 = Song.new("s1", "bob2", "chill2")
 puts "count "
 puts Song.count
 puts "artists "
-puts Song.artists
+puts Song.artists.inspect
 puts "genres "
-puts Song.genres
+puts Song.genres.inspect
