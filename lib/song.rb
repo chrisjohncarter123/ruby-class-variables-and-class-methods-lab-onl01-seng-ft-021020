@@ -36,7 +36,7 @@ class Song
 end
 
 s1 = Song.new("s1", "bob", "chill")
-s2 = Song.new("s1", "bob2", "chill2")
+s2 = Song.new("s1", "bob", "chill2")
 puts "count "
 puts Song.count
 puts "artists "
