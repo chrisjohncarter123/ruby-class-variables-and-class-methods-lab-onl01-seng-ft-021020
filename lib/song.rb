@@ -14,6 +14,8 @@ class Song
     if(@@genres.include? (genre) == false)
       @@genres << genre
     end
+    
+    puts @@artists
   end
   
   def Song.count
