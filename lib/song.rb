@@ -6,13 +6,15 @@ class Song
   @@artists = []
   @@genres = []
   def initialize(name, artist, genre)
+    
     @@count += 1
+    
     @name = name
     @artist = artist
     @genre = genre
+    
     @@artists << artist
     @@genres << genre
-    
     
   end
   
@@ -53,15 +55,4 @@ class Song
   
   
 end
-
-s1 = Song.new("s1", "bob", "chill")
-s2 = Song.new("s1", "bob", "chill2")
-puts "count "
-puts Song.count
-puts "artists "
-puts Song.artists.inspect
-puts "genres "
-puts Song.genres.inspect
-puts "genre count"
-puts Song.genre_count.inspect
 
