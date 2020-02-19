@@ -6,7 +6,7 @@ class Song
   def initialize(name, artist, genre)
     @@count += 1
     puts @@artists.include? (artist)
-    if(@@artists.include? (artist) == false)
+    if(@@artists.include? artist == false)
       puts "artists " + @@artists
       @@artists << artist
       
