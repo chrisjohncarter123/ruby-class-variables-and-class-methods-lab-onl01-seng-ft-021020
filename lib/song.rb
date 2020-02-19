@@ -25,8 +25,17 @@ class Song
   end
   
   def Song.genre_count
-    @@genres.uniq
+    result = Hash.new(0)
+
+   # iterate over the array, counting duplicate entries
+   @@genres.each do |value|
+     result[value] += 1
+   end
+   
+   result
   end
+  
+  
   
 end
 
